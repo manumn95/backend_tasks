@@ -1,8 +1,3 @@
-
-ZEN-CLASS-DB-DESIGN
-
-This README provides an overview of the DataBase design used for the Guvi Zen Class. The DataBase is designed to manage student, instructor, course, enrollment, class schedule, and payment information.
-
 Students Table
 
     student_id (Primary Key)
@@ -56,5 +51,3 @@ Payments Table
     payment_date
     amount
     payment_method
-
-
