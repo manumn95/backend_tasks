@@ -1,8 +1,9 @@
-
 ## MongoDB Day 1 Task
+
 In this document using varius commands to fecth data from mongo dab.
 
 ## The commands
+
 1.Find all the information about each products
 
 ## db.products.find()
@@ -21,7 +22,7 @@ In this document using varius commands to fecth data from mongo dab.
 
 5.Find the product name and product material of each products
 
-## db.products.find({},{product_name:1,product_material:1,_id:0})
+## db.products.find({},{product_name:1,product_material:1,\_id:0})
 
 6.Find the product with a row id of 10
 
@@ -39,20 +40,6 @@ In this document using varius commands to fecth data from mongo dab.
 
 ## db.products.find({$and: [{ product_price: 492 },{ product_color: 'indigo' }]});
 
-10.Delete the products which product price value are same.
+10.Delete the products which product price value are 28
 
-## db.getCollection("Product_Data").aggregate([
-{
-$group: {
-_id: '$product_price',
-count: { $sum: 1 }
-}
-},
-{
-$match: {
-count: { $gt: 1 }
-}
-}
-]).forEach((e) => {
-db.getCollection("Product_Data").deleteMany({ product_price: e._id });
-});
+## db.products.deleteMany({product_price:28})
