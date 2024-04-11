@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "ObjectId('66166cba61ed0517b5b36b93')",
+    "taskId": "1",
+    "topicId": "1",
+    "userId": "1",
+    "task": "RWD",
+    "dueDate": "2020-10-12",
+    "submitted": "true"
+  },
+  {
+    "_id": "ObjectId('66166cba61ed0517b5b36b94')",
+    "taskId": "1",
+    "topicId": "1",
+    "userId": "2",
+    "task": "RWD",
+    "dueDate": "2020-10-12",
+    "submitted": "true"
+  },
+  {
+    "_id": " ObjectId('66166cba61ed0517b5b36b95')",
+    "taskId": "1",
+    "topicId": "1",
+    "userId": "4",
+    "task": "RWD",
+    "dueDate": "2020-10-12",
+    "submitted": "true"
+  },
+  {
+    "_id": "ObjectId('66166cba61ed0517b5b36b96')",
+    "taskId": "1",
+    "topicId": "1",
+    "userId": "3",
+    "task": "RWD",
+    "dueDate": "2020-10-12",
+    "submitted": "true"
+  }
+]

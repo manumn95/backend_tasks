@@ -1,0 +1,27 @@
+[
+{
+  "_id": "ObjectId('66166abb61ed0517b5b36b7d')",
+  "userId": "1",
+  "problemSolved": "13"
+},
+{
+  "_id": "ObjectId('66166abb61ed0517b5b36b7e')",
+  "userId": "2",
+  "problemSolved": "11"
+},
+{
+  "_id": "ObjectId('66166abb61ed0517b5b36b7f')",
+  "userId": "3",
+  "problemSolved": "16"
+},
+{
+  "_id": "ObjectId('66166abb61ed0517b5b36b80')",
+  "userId": "4",
+  "problemSolved": "31"
+},
+{
+  "_id": "ObjectId('66166abb61ed0517b5b36b81')",
+  "userId": "5",
+  "problemSolved": "33"
+}
+]

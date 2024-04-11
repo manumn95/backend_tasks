@@ -1,0 +1,44 @@
+[
+{
+  "_id": "ObjectId('66166bf761ed0517b5b36b8a')",
+  "userId": 1,
+  "topicId": 1,
+  "attended": true,
+  "date":"2020-10-15"
+},
+{
+  "_id": "ObjectId('66166bf761ed0517b5b36b8b')",
+  "userId": 2,
+  "topicId": 1,
+  "attended": true,
+  "date":"2020-10-15"
+},
+{
+  "_id": "ObjectId('66166bf761ed0517b5b36b8c')",
+  "userId": 3,
+  "topicId": 1,
+  "attended": true,
+  "date":"2020-12-15"
+},
+{
+  "_id": "ObjectId('66166bf761ed0517b5b36b8d')",
+  "userId": 4,
+  "topicId": 1,
+  "attended": true,
+  "date":"2020-09-15"
+},
+{
+  "_id": "ObjectId('66166bf761ed0517b5b36b8e')",
+  "userId": 5,
+  "topicId": 1,
+  "attended": true,
+  "date":"2020-11-15"
+},
+{
+  "_id": "ObjectId('66166bf761ed0517b5b36b8f')",
+  "userId": 6,
+  "topicId": 1,
+  "attended": false,
+  "date":"2020-11-15"
+}
+]
